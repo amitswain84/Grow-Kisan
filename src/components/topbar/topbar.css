@@ -1,10 +1,11 @@
 .topbar {
   width: 100%;
-  height: 50px;
+  height: 60px;
   background-color: white;
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 9999;
+  box-shadow: 0 2px 6px 0 rgb(0 0 0 / 12%), inset 0 -1px 0 0 #dadce0;
 }
 
 .topbarWrapper {
@@ -18,7 +19,7 @@
 .logo {
   font-weight: bold;
   font-size: 30px;
-  color: darkblue;
+  color: rgb(6, 119, 44);
   cursor: pointer;
 }
 
@@ -32,13 +33,14 @@
   cursor: pointer;
   margin-right: 10px;
   color: #555;
+  padding: 5px;
 }
 
 .topIconBadge{
     width: 15px;
     height: 15px;
     position: absolute;
-    top: -5px;
+    top: 2px;
     right: 0px;
     background-color: red;
     color: white;
@@ -50,8 +52,9 @@
 }
 
 .topAvatar{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     cursor: pointer;
+    object-fit: cover;
 }

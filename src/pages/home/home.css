@@ -1,8 +1,37 @@
 .home{
-    flex: 4;
+    flex: 6.2;
+    margin: 0px 20px;
 }
-
+.mainchartcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.mainchart {
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
 .homeWidgets{
     display: flex;
     margin: 20px;
+}
+h4.charttitle {
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 4px;
+    background-color: rgb(12, 145, 23);
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+tspan {
+    font-size: 13px;
+}
+span.recharts-legend-item-text {
+    font-size: 14px;
+}
+.recharts-wrapper.chartbox {
+    padding: 8px 0;
 }
